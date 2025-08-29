@@ -1,0 +1,58 @@
+/* grundläggande stil för webbsidan */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 100px;
+}  
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* skulle vara för extra kanppar som jag hade kodat fel men hinner inte koda klart*/
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+input[type="submit"] {
+    background: #5cb85c;
+    color: #fff;
+    border: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+} 
+
+input[type="submit"]:hover {
+    background: #4cae4c;
+}
+.alert {
+    padding: 15px;
+    background-color: #f44336; 
+    color: white;
+    margin-bottom: 20px;
+}
+.alert.success {background-color: #4CAF50;} 
+.alert.info {background-color: #2196F3;} 
